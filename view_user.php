@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>view user</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }     
+
+        
+
+    </style>
+</head>
+<body>
+    <form>
+            <br><br>
+            <div class="userpage">
+                <h2>User Information</h2>
+            </div>
+            <div class="tcontent">
+                <table class="tbl">
+                    <tr><th>Name</th><th>Email</th><th>Credit</th></tr>
+                    <tr><td>Arav</td><td>arav123@gmail.com</td><td>100</td></tr>
+                    <tr><td>Aksh</td><td>aksh123@gmail.com</td><td>123</td></tr>
+                    <tr><td>Akash</td><td>akash123@gmail.com</td><td>200</td></tr>
+                    <tr><td>Anav</td><td>anav123@gmail.com</td><td>231</td></tr>
+                    <tr><td>Anupama</td><td>anu123@gmail.com</td><td>300</td></tr>
+                    <tr><td>Anika</td><td>anika123@gmail.com</td><td>367</td></tr>
+                    <tr><td>Ayana</td><td>ayana123@gmail.com</td><td>400</td></tr>
+                    <tr><td>Arya</td><td>arya123@gmail.com</td><td>467</td></tr>
+                    <tr><td>Ansh</td><td>ansh123@gmail.com</td><td>500</td></tr>
+                    <tr><td>Aadi</td><td>aadi123@gmail.com</td><td>600</td></tr>
+                </table>
+            </div>
+            <div class="choose_2">
+                <a href="selectuser.php"><input type="button" class="btn" value="Select User"></button></a>
+                <a href="credit.html"><input type="button" class="btn" value="Back"></button></a>
+            </div>
+        
+    </form>
+</body>
+</html>
